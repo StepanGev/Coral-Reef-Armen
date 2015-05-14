@@ -1,3 +1,15 @@
+/* THIS IS A RESET FOR SELECT ELEMENTS */
+ul, menu, dir {
+  display: block;
+  list-style-type: none;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+/* END OF RESET ELEMENTS*/
+
 body{
     background: url('../img/bg_ocean.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -15,7 +27,7 @@ body{
 }
 #nav-head_wrap{
     background-color: #262626;
-    width: 170px;
+    width: 200px;
     height: 100%;
     position: fixed;
 }
@@ -27,3 +39,15 @@ body{
     color: white;
     text-decoration: none;
 }
+.title_wrap{
+    color: #FF3B3B;
+    font-family: pristina;
+    font-size: 2em;
+    margin-left: 9px;
+}
+
+#nav_link{
+    font-family: 'quicksand';
+}
+
+
