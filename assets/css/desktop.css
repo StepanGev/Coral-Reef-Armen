@@ -4,6 +4,26 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    background-color: blue;
+    margin: 0;
 }
 
+#wrapping_body{
+    background-color: whitesmoke;
+    opacity: 0.8;
+    width: 70%;
+    float: right;
+}
+#nav-head_wrap{
+    background-color: #262626;
+    width: 170px;
+    height: 100%;
+    position: fixed;
+}
+
+.nav_list{
+    list-style-type: none;
+}
+.nav_link{
+    color: white;
+    text-decoration: none;
+}
