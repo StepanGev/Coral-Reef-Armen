@@ -43,7 +43,7 @@ body{
 }
 #nav-head_wrap{
     background-color: #262626;
-    width: 200px;
+    width: 250px;
     height: 100%;
     position: fixed;
 }
@@ -58,12 +58,16 @@ body{
 .title_wrap{
     color: #FF3B3B;
     font-family: pristina;
-    font-size: 2em;
-    margin-left: 9px;
+    font-size: 2.2em;
+    margin-left: 26px;
+    margin-top: -30px;
+    margin-bottom: -10px;
 }
 
 .nav_link{
     font-family: 'quicksand';
+    font-size: 3em;
+    margin-left: 10px;
 }
 
 
