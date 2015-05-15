@@ -26,7 +26,7 @@ ul, menu, dir {
 }
 /* END OF RESET ELEMENTS*/
 
-body{
+#home{
     background: url('../img/bg_ocean.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -61,20 +61,50 @@ body{
     font-size: 2.2em;
     margin-left: 26px;
     margin-top: -30px;
-    margin-bottom: -10px;
+    margin-bottom: -40px;
 }
 
 .nav_link{
     font-family: 'quicksand';
     font-size: 2em;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    transition: background-color 0.5s ease;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: background-color 0.6s ease;
+
 }
 
 
 .nav_link:hover{
     background-color: #333333;
+}
+.nav_link:visited{
+    color: white;
+}
+#nav_link1{
+    padding-left: 78.5px;
+    padding-right: 78.5px;
+}
+#nav_link2{
+        padding-left: 77.5px;
+    padding-right: 77.5px;
+}
+#nav_link3{
+        padding-left: 81.5px;
+    padding-right: 81.5px;
+}
+#nav_link4{
+        padding-left: 60.5px;
+    padding-right: 60.5px;
+}
+body#home a#nav_link1,
+body#about a#nav_link2,
+body#coral a#nav_link3,
+body#contact a#nav_link3 {
+    color: white;
+	background: #444444;
+}
+#contain_head{
+    margin-top: 30px;
+}
+#contain_head img{
 }
