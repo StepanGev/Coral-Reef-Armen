@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 /* THIS IS A RESET FOR SELECT ELEMENTS */
 ul, menu, dir {
   display: block;
@@ -47,7 +48,7 @@ body{
 }
 
 #nav_link{
-    font-family: 'quicksand';
+    font-family: 'Quicksand';
 }
 
 
