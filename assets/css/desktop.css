@@ -62,8 +62,8 @@ body{
     margin-left: 9px;
 }
 
-#nav_link{
-    font-family: 'quicksand'
+.nav_link{
+    font-family: 'quicksand';
 }
 
 
