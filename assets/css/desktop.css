@@ -41,20 +41,26 @@ dir {
 
 #wrapping_body {
     background-color: white;
-    opacity: 0.85;
     text-align: center;
-    width: 60%;
-    min-width: 30%;
-    height: auto;
+    width: 90%;
+    height: 100%;
+    opacity: 0.9;
+    display: inline-block;
     float: right;
 }
-
+#wrapping_body img{
+    height: auto;
+    width: 40%;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
 #nav-head_wrap {
     background-color: #262626;
-    width: 250px;
+    width: 13%;
     height: 100%;
     position: fixed;
     top: 0;
+    z-index: 99;
 }
 
 .nav_list {
